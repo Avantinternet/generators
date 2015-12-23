@@ -1,10 +1,10 @@
 <?php
 
-namespace Pingpong\Generators\Console;
+namespace Avantinternet\Generators\Console;
 
 use Illuminate\Console\Command;
 use Illuminate\Foundation\Composer;
-use Pingpong\Generators\MigrationGenerator;
+use Avantinternet\Generators\MigrationGenerator;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace Pingpong\Generators\FormDumpers;
+namespace Avantinternet\Generators\FormDumpers;
 
-use Pingpong\Generators\Stub;
+use Avantinternet\Generators\Stub;
 
 trait StubTrait
 {
@@ -70,7 +70,7 @@ trait StubTrait
 
         $type = $this->getInputType($type, $name);
 
-        return Stub::createFromPath(__DIR__.'/../Stubs/form/'.$type.'.stub', [
+        return Stub::create('/form/'.$type.'.stub', [
             'name' => $name,
             'label' => ucwords(str_replace('_', ' ', $name)),
         ])->render();

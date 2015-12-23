@@ -1,7 +1,16 @@
 <?php
 
-namespace Pingpong\Generators;
+namespace Avantinternet\Generators;
 
-class Stub extends \Pingpong\Support\Stub
+class Stub extends \Avantinternet\Support\Stub
 {
+	/**
+	 * Get base path.
+	 * 
+	 * @return string
+	 */
+	public static function getBasePath()
+	{
+        return str_finish(config('generators.template_path', __DIR__.'/Stubs/'), '/');
+	}
 }

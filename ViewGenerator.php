@@ -1,6 +1,6 @@
 <?php
 
-namespace Pingpong\Generators;
+namespace Avantinternet\Generators;
 
 class ViewGenerator extends Generator
 {

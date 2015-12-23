@@ -1,8 +1,8 @@
 <?php
 
-namespace Pingpong\Generators;
+namespace Avantinternet\Generators;
 
-use Pingpong\Generators\Scaffolders\ControllerScaffolder;
+use Avantinternet\Generators\Scaffolders\ControllerScaffolder;
 
 class ControllerGenerator extends Generator
 {

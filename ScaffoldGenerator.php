@@ -1,12 +1,12 @@
 <?php
 
-namespace Pingpong\Generators;
+namespace Avantinternet\Generators;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Str;
-use Pingpong\Generators\FormDumpers\FieldsDumper;
-use Pingpong\Generators\FormDumpers\TableDumper;
-use Pingpong\Generators\Scaffolders\ControllerScaffolder;
+use Avantinternet\Generators\FormDumpers\FieldsDumper;
+use Avantinternet\Generators\FormDumpers\TableDumper;
+use Avantinternet\Generators\Scaffolders\ControllerScaffolder;
 
 class ScaffoldGenerator
 {
@@ -248,7 +248,7 @@ class ScaffoldGenerator
         $generator = new ViewGenerator([
             'name' => $this->getPrefix('/').$this->getEntities().'/'.$view,
             'extends' => str_replace('/', '.', $this->getViewLayout()),
-            'template' => __DIR__.'/Stubs/scaffold/views/'.$view.'.stub',
+            'template' => '/scaffold/views/'.$view.'.stub',
             'force' => $this->console->option('force'),
         ]);
 

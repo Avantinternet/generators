@@ -1,6 +1,6 @@
 <?php
 
-namespace Pingpong\Generators;
+namespace Avantinternet\Generators;
 
 use Illuminate\Console\AppNamespaceDetectorTrait;
 use Illuminate\Filesystem\Filesystem;
@@ -74,8 +74,6 @@ abstract class Generator
     public function getStub()
     {
         $stub = new Stub($this->stub.'.stub', $this->getReplacements());
-
-        $stub->setBasePath(__DIR__.'/Stubs/');
 
         return $stub->render();
     }

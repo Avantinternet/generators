@@ -1,8 +1,8 @@
 <?php
 
-namespace Pingpong\Generators;
+namespace Avantinternet\Generators;
 
-use Pingpong\Generators\Migrations\SchemaParser;
+use Avantinternet\Generators\Migrations\SchemaParser;
 
 class ModelGenerator extends Generator
 {

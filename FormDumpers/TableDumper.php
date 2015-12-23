@@ -1,9 +1,9 @@
 <?php
 
-namespace Pingpong\Generators\FormDumpers;
+namespace Avantinternet\Generators\FormDumpers;
 
 use Illuminate\Support\Facades\DB;
-use Pingpong\Generators\Stub;
+use Avantinternet\Generators\Stub;
 
 class TableDumper
 {

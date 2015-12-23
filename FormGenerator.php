@@ -1,9 +1,9 @@
 <?php
 
-namespace Pingpong\Generators;
+namespace Avantinternet\Generators;
 
-use Pingpong\Generators\FormDumpers\FieldsDumper;
-use Pingpong\Generators\FormDumpers\TableDumper;
+use Avantinternet\Generators\FormDumpers\FieldsDumper;
+use Avantinternet\Generators\FormDumpers\TableDumper;
 
 class FormGenerator
 {

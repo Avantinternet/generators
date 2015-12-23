@@ -1,9 +1,9 @@
 <?php
 
-namespace Pingpong\Generators\FormDumpers;
+namespace Avantinternet\Generators\FormDumpers;
 
-use Pingpong\Generators\Migrations\SchemaParser;
-use Pingpong\Generators\Stub;
+use Avantinternet\Generators\Migrations\SchemaParser;
+use Avantinternet\Generators\Stub;
 
 class FieldsDumper
 {
@@ -110,7 +110,7 @@ class FieldsDumper
                 continue;
             }
 
-            $results .= Stub::createFromPath(__DIR__.'/../Stubs/scaffold/row.stub', [
+            $results .= Stub::create('/scaffold/row.stub', [
                 'label' => ucwords($name),
                 'column' => $name,
                 'var' => $var,
