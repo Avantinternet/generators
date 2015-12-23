@@ -9,7 +9,7 @@
   ],
   "authors": [
     {
-      "name": "Pingpong Labs",
+      "name": "Avantinternet Labs",
       "email": "pingpong.labs@gmail.com"
     }
   ],
@@ -26,7 +26,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Pingpong\\Generators\\": ""
+      "Avantinternet\\Generators\\": ""
     }
   },
   "minimum-stability": "stable"

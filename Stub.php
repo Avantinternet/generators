@@ -1,8 +1,8 @@
 <?php
 
-namespace Pingpong\Generators;
+namespace Avantinternet\Generators;
 
-class Stub extends \Pingpong\Support\Stub
+class Stub extends \Avantinternet\Support\Stub
 {
 	/**
 	 * Get base path.

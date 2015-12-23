@@ -1,6 +1,6 @@
 <?php
 
-namespace Pingpong\Generators\Migrations;
+namespace Avantinternet\Generators\Migrations;
 
 use Illuminate\Contracts\Support\Arrayable;
 

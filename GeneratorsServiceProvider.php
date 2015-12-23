@@ -1,6 +1,6 @@
 <?php
 
-namespace Pingpong\Generators;
+namespace Avantinternet\Generators;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -54,7 +54,7 @@ class GeneratorsServiceProvider extends ServiceProvider
     public function register()
     {
         foreach ($this->consoles as $console) {
-            $this->commands('Pingpong\Generators\Console\\'.$console.'Command');
+            $this->commands('Avantinternet\Generators\Console\\'.$console.'Command');
         }
     }
 }

@@ -1,9 +1,9 @@
 <?php
 
-namespace Pingpong\Generators\Console;
+namespace Avantinternet\Generators\Console;
 
 use Illuminate\Console\Command;
-use Pingpong\Generators\RequestGenerator;
+use Avantinternet\Generators\RequestGenerator;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;
 

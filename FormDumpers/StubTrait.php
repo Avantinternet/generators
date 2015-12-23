@@ -1,8 +1,8 @@
 <?php
 
-namespace Pingpong\Generators\FormDumpers;
+namespace Avantinternet\Generators\FormDumpers;
 
-use Pingpong\Generators\Stub;
+use Avantinternet\Generators\Stub;
 
 trait StubTrait
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace Pingpong\Generators;
+namespace Avantinternet\Generators;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Str;
-use Pingpong\Generators\FormDumpers\FieldsDumper;
-use Pingpong\Generators\FormDumpers\TableDumper;
-use Pingpong\Generators\Scaffolders\ControllerScaffolder;
+use Avantinternet\Generators\FormDumpers\FieldsDumper;
+use Avantinternet\Generators\FormDumpers\TableDumper;
+use Avantinternet\Generators\Scaffolders\ControllerScaffolder;
 
 class ScaffoldGenerator
 {
